@@ -16,7 +16,7 @@ int mines(const int c, const int r, const int width, const int height)
       ++i;
     }
   }
-  if (r < width - 1) {
+  if (r < height - 1) {
     if (mine_at(c, r + 1)) {
       ++i;
     }
